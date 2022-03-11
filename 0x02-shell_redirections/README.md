@@ -23,3 +23,17 @@ Shell I/O Redirections and Filters ReadMe
 9-duplicate_last_line contains a script that duplicates the last line of the file ' iacta '.
 
 10-no_more_js contains a script that deletes all the regular files (and not the directories) with a .js extension present in the current directory and all its subfolders. 
+
+11-directories contains a script that counts the number of directories and sub-directories there are in the current directory including hidden directories.
+-> The current and parent directories should not be counted.
+
+12-newest_files contains a script that displays the 10 newest files in the current directory with one file per line and sorted from the newest to the oldest.
+
+13-unique contains a script that takes a list of words as input and prints only words that appear exactly once.
+-> Input format: One word, one line
+-> Output format: One word, one line
+-> Words (printed words / output) should be sorted.
+
+14-findthatword contains a script that displays lines containing the pattern "root" from the file ' /etc/passwd ' .
+
+15-counthatword contains a script that displays the number of lines that contain the pattern "bin" in the file ' /etc/passwd ' .
